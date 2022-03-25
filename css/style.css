@@ -194,7 +194,6 @@
   font-size: 10px;
   line-height: calc(12 / 10);
   aspect-ratio: 1;
-  overflow: hidden;
 }
 
 .map-Area-G06 { grid-area: G06; }
@@ -264,6 +263,7 @@
   height: 100%;
   padding: 4px;
   position: relative;
+  overflow: hidden;
 }
 
 .map-Area_Label {
