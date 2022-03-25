@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja" class="rd">
+<head>
+  <meta charset="utf-8">
+  
+  <title>非公式 情報表現領域 講義マップ</title>
+  <meta name="description" content="非公式 情報表現領域講義マップ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="非公式 情報表現領域 講義マップ">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link href="/css/ress.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-Inner">
+      <h1 class="header-Heading">非公式 情報表現領域 講義マップ</h1>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <form id="js-nav-Day" class="nav-Day">
+      <ul class="nav-Day_List">
+        <!--
+        <li class="nav-Day_Item">
+          <input type="radio" id="js-nav-Day_ItemInput-mon" class="js-nav-Day_ItemInput sw-visually-hidden nav-Day_ItemInput" name="day" value="mon">
+          <label for="js-nav-Day_ItemInput-mon" class="nav-Day_ItemLabel">月</label>
+        </li>
+        -->
+        <li class="nav-Day_Item">
+          <input type="radio" id="js-nav-Day_ItemInput-tue" class="js-nav-Day_ItemInput sw-visually-hidden nav-Day_ItemInput" name="day" value="tue">
+          <label for="js-nav-Day_ItemInput-tue" class="nav-Day_ItemLabel">火</label>
+        </li>
+        <li class="nav-Day_Item">
+          <input type="radio" id="js-nav-Day_ItemInput-wed" class="js-nav-Day_ItemInput sw-visually-hidden nav-Day_ItemInput" name="day" value="wed">
+          <label for="js-nav-Day_ItemInput-wed" class="nav-Day_ItemLabel">水</label>
+        </li>
+        <li class="nav-Day_Item">
+          <input type="radio" id="js-nav-Day_ItemInput-thu" class="js-nav-Day_ItemInput sw-visually-hidden nav-Day_ItemInput" name="day" value="thu">
+          <label for="js-nav-Day_ItemInput-thu" class="nav-Day_ItemLabel">木</label>
+        </li>
+        <li class="nav-Day_Item">
+          <input type="radio" id="js-nav-Day_ItemInput-sat" class="js-nav-Day_ItemInput sw-visually-hidden nav-Day_ItemInput" name="day" value="sat">
+          <label for="js-nav-Day_ItemInput-sat" class="nav-Day_ItemLabel">金</label>
+        </li>
+      </ul>
+    </form><!-- .nav-Day -->
+    <form id="js-nav-Hour" class="nav-Hour">
+      <ul class="nav-Hour_List">
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-1" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="1">
+          <label for="js-nav-Hour_ItemInput-1" class="nav-Hour_ItemLabel">1・2限<br><span class="nav-Hour_ItemLabel-small">9:00～12:10</span></label>
+        </li>
+        <!--
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-2" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="2">
+          <label for="js-nav-Hour_ItemInput-2" class="nav-Hour_ItemLabel">2限<br><span class="nav-Hour_ItemLabel-small">10:40～12:10</span></label>
+        </li>
+        -->
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-3" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="3">
+          <label for="js-nav-Hour_ItemInput-3" class="nav-Hour_ItemLabel">3・4限<br><span class="nav-Hour_ItemLabel-small">13:00～16:10</span></label>
+        </li>
+        <!--
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-4" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="4">
+          <label for="js-nav-Hour_ItemInput-4" class="nav-Hour_ItemLabel">4限<br><span class="nav-Hour_ItemLabel-small">14:40～16:10</span></label>
+        </li>
+        -->
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-5" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="5">
+          <label for="js-nav-Hour_ItemInput-5" class="nav-Hour_ItemLabel">5・6限<br><span class="nav-Hour_ItemLabel-small">16:20～19:30</span></label>
+        </li>
+        <!--
+        <li class="nav-Hour_Item">
+          <input type="radio" id="js-nav-Hour_ItemInput-6" class="js-nav-Hour_ItemInput sw-visually-hidden nav-Hour_ItemInput" name="hour" value="6">
+          <label for="js-nav-Hour_ItemInput-6" class="nav-Hour_ItemLabel">6限<br><span class="nav-Hour_ItemLabel-small">18:00～19:30</span></label>
+        </li>
+        -->
+      </ul>
+    </form><!-- .nav-Hour -->
+  </nav>
+
+  <main class="main">
+    <article id="js-map" class="map">
+      <div class="map-Inner">
+        <h2 class="map-Heading">前期
+          <span id="js-map-Day" class="map-Day"></span>
+          <span id="js-map-Hour" class="map-Hour"></span>
+        </h2>
+      
+        <h3 class="map-Heading">名城キャンパス 4階</h3>
+        <div class="map-Content">
+          <div class="map-Area map-Area-G06 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">Studio<br>Office 2</span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-G07 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">BOX</span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-G08 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">G08</span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-G09 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">W.C.</span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-G10 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">EV.</span>
+            </div>
+          </div>
+          <div id="js-map-Area-G11" class="js-map-Area map-Area map-Area-G11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">G11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div class="map-Area map-Area-AST map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">Art Street</span>
+            </div>
+          </div>
+          <div id="js-map-Area-F11" class="js-map-Area map-Area map-Area-F11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">F11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div class="map-Area map-Area-SO0 map-Area-br map-Area-other"></div>
+          <div id="js-map-Area-E08" class="js-map-Area map-Area map-Area-E08 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">BOX</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-E09 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">MTG</span>
+            </div>
+          </div>
+          <div id="js-map-Area-E10" class="js-map-Area map-Area map-Area-E10 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">BOX</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-E11" class="js-map-Area map-Area map-Area-E11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">E11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div class="map-Area map-Area-SO1 map-Area-br map-Area-bb map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">Studio Office 1</span>
+            </div>
+          </div>
+          <div id="js-map-Area-D09" class="js-map-Area map-Area map-Area-D09 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">D09</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-D10" class="js-map-Area map-Area map-Area-D10 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">D10</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-D11" class="js-map-Area map-Area map-Area-D11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">D11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div id="js-map-Area-C09" class="js-map-Area map-Area map-Area-C09 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">C09</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-C10" class="js-map-Area map-Area map-Area-C10 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">C10</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-C11" class="js-map-Area map-Area map-Area-C11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">C11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div id="js-map-Area-B06" class="js-map-Area map-Area map-Area-B06 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">B06</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-B07 map-Area-br map-Area-bb map-Area-blank"></div>
+          <div id="js-map-Area-B08" class="js-map-Area map-Area map-Area-B08 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">B08</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-B09" class="js-map-Area map-Area map-Area-B09 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">B09</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-B10" class="js-map-Area map-Area map-Area-B10 map-Area-br map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">B10</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-B11" class="js-map-Area map-Area map-Area-B11 map-Area-bb">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">B11</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+
+          <div id="js-map-Area-A06" class="js-map-Area map-Area map-Area-A06 map-Area-br">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">A06</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-A07" class="js-map-Area map-Area map-Area-A07 map-Area-br">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">A07</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-A08" class="js-map-Area map-Area map-Area-A08 map-Area-br">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">A08</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-A09" class="js-map-Area map-Area map-Area-A09 map-Area-br">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">A09</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div id="js-map-Area-A10" class="js-map-Area map-Area map-Area-A10 map-Area-br">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">A10</span>
+              <span class="js-map-Area_Lecture map-Area_Lecture"></span>
+            </div>
+          </div>
+          <div class="map-Area map-Area-A11 map-Area-other">
+            <div class="map-Area_Inner">
+              <span class="map-Area_Label">MTG</span>
+            </div>
+          </div>
+        </div><!-- /.map-Content -->
+
+        <p class="map-Par">※ 情報表現領域の実技科目のみが表示されます。講義科目については表示されないのでご注意ください。</p>
+      </div>
+      <!--
+      <img src="images/first/2022/mon-1.png" alt="">
+      <img src="images/first/2022/tue-1.png" alt="">
+      <img src="images/first/2022/wed-1.png" alt="">
+      <img src="images/first/2022/thu-1.png" alt="">
+      <img src="images/first/2022/fri-1.png" alt="">
+      <img src="images/second/2022/mon-1.png" alt="">
+      <img src="images/second/2022/tue-1.png" alt="">
+      <img src="images/second/2022/wed-1.png" alt="">
+      <img src="images/second/2022/thu-1.png" alt="">
+      <img src="images/second/2022/fri-1.png" alt="">
+      -->
+    </article>
+
+    <aside class="list">
+      <div class="list-Inner">
+        <h2 class="list-Heading">一覧</h2>
+        <table class="list-Table">
+          <tr class="list-Table_Tr list-Table_Tr-header">
+            <td class="list-Table_Td">場所</td>
+            <td class="list-Table_Td">講義名</td>
+            <td class="list-Table_Td">担当者</td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-videoLab" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">ビデオラボ</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          
+          <tr id="js-list-Table_Tr-photoLab" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">フォトラボ</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          
+          <tr id="js-list-Table_Tr-factory" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">工房</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          
+          <tr id="js-list-Table_Tr-lectureRoom2" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">講義室2</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-A06" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A06</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-A07" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A07</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-A08" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A08</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-A09" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A09</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-A10" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A10</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-A11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">A11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-B08" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">B08</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-B09" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">B09</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-B10" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">B10</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-B11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">B11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-C09" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">C09</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-C10" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">C10</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-C11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">C11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-D09" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">D09</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-D10" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">D10</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-D11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">D11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-E08" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">E08</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-E09" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">E09</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-E10" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">E10</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-E11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">E11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-F11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">F11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+
+          <tr id="js-list-Table_Tr-G04" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">G04</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+          <tr id="js-list-Table_Tr-G11" class="js-list-Table_Tr list-Table_Tr">
+            <td class="list-Table_Td">G11</td>
+            <td class="js-list-Table_Td-lecture list-Table_Td"></td>
+            <td class="js-list-Table_Td-teacher list-Table_Td"></td>
+          </tr>
+        </table>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-Inner">
+      <p class="footer-Par">このWebページをスマートフォンのホーム画面に追加すると情報表現領域みたいなアイコンで追加きます。</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
